@@ -1,4 +1,4 @@
-# Chicken-Disease-Classification--Project
+# MALARIA--Project
 
 
 ## Workflows
