@@ -91,7 +91,7 @@ open up you local host and port
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/malaria
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -143,11 +143,11 @@ s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
 
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest .
+docker build -t malariaapp.azurecr.io/malaria:latest .
 
-docker login chickenapp.azurecr.io
+docker login malariaapp.azurecr.io
 
-docker push chickenapp.azurecr.io/chicken:latest
+docker push malariaapp.azurecr.io/malaria:latest
 
 
 ## Deployment Steps:
